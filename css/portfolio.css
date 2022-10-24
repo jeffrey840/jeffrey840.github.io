@@ -22,13 +22,13 @@ body {
 }
 
 section {
-    background-color: white;
+    background-color: var(--grey);
 }
 
 .hero {
-    background-color: #1c1d25;
+    background-color: var(--darkblue);
     height: 100vh;
-    color: white;
+    color: var(--aquablue);
     font-size: 40px;
 }
 
@@ -92,7 +92,7 @@ p {
     width: 200px;
     height: 55px;
     border-radius: 30px;
-    background-color: coral;
+    background-color: var(--aquablue);
     text-align: center;
     font-size: 30px;
     font-weight: 300;
@@ -101,7 +101,7 @@ p {
 }
 
 .button:hover {
-    background-color: #ef744b;
+    background-color: var(--mediumblue);
 }
 
 .button:active {
@@ -113,10 +113,7 @@ p {
     padding-bottom: 200px;
 }
 
-.logo {
-    height: 80px;
-    margin: 30px;
-}
+
 .social {
     margin: 20px;
 }
