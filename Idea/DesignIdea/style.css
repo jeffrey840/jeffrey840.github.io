@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap');
+
+
+body {
+    background-color: rgba(20,20,20);
+    margin: 0px;
+}
+
+#menu {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu-item {
+    color: white;
+    font-size: clamp(3rem, 8vw, 8rem);
+    font-family: "Ibarra Real Nova", Serif;
+
+    display: block;
+    text-decoration: none;
+    padding: clamp(0.25rem, 0.5vw, 1rem) 0rem;
+    transition:opacity  400ms ease;
+}
+
+#menu-items {
+margin-left: clamp(4rem,20vw,48rem);
+}
+
+#menu-items:hover > .menu-item {
+    opacity: 0.3;
+}
+
+#menu-items:hover > .menu-item:hover {
+    opacity: 1;
+}
+
+
