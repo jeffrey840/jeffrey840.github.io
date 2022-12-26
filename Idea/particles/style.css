@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 
 /* ---- reset ---- */
-body{ margin:0; font:normal 75% Arial, Helvetica, sans-serif; }
+body{ margin:0;
+    font:normal 75% Arial, Helvetica, sans-serif; }
 canvas{ display: block; vertical-align: bottom; }
 
 #particles-js {
@@ -15,41 +16,12 @@ canvas{ display: block; vertical-align: bottom; }
     background-size: cover;
 }
 
-/* ---- stats.js ---- */
-.count-particles{
-    background: #000022;
-    position: absolute;
-    top: 48px;
-    left: 0;
-    width: 80px;
-    color: #13E8E9;
-    font-size: .8em;
-    text-align: left;
-    text-indent: 4px;
-    line-height: 14px;
-    padding-bottom: 2px;
-    font-family: Helvetica, Arial, sans-serif;
-    font-weight: bold; }
-
-.js-count-particles{ font-size: 1.1em; }
-
-#stats, .count-particles{ -webkit-user-select: none;
-    margin-top: 5px;
-    margin-left: 5px; }
-#stats{
-    border-radius: 3px 3px 0 0;
-    overflow: hidden; }
-.count-particles{ border-radius: 0 0 3px 3px; }
 
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
-
-/* we use dot (.) to target class and
-hash (#) to target id... */
-
 
 .center-text {
     position: absolute;
@@ -68,11 +40,11 @@ hash (#) to target id... */
 h1 {
     color: white;
     font-family: 'DINPro-Light';
-    font-size: 100px;
+    font-size: 30px;
 }
 
 .headshot {
-    width: 300px;
+    width: 20vh;
     border-radius: 150px;
     margin-left: 80px;
 }
@@ -82,8 +54,32 @@ h1 {
     align-items: center;
 }
 
-h2 {
+p {
+    color: white;
+    font-family: 'DINPro-Light';
+    letter-spacing: .05em;
+    font-size: 20px;
+}
+
+.contact a{
+    text-decoration: none;
     color: white;
     font-family: 'Oswald', sans-serif;
-    padding-left: 20%;
+    letter-spacing: .05em;
+    font-size: 20px;
+    transition: opacity 0.5s ease-in-out;
 }
+.contact a:hover{
+    text-decoration: none;
+    color: darkgrey;
+    opacity: .7;
+}
+
+.DINpro {
+    color: white;
+    font-family: 'DINPro-Light';
+    letter-spacing: .05em;
+    font-size: 20px;
+}
+
+
