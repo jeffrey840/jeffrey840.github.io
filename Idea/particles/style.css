@@ -17,41 +17,39 @@ canvas{ display: block; vertical-align: bottom; }
 }
 
 
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
-
 .center-text {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 20%;
+    left: 20%;
+    transform: translate(-20%, -20%);
 }
 
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    Border:red 1px solid;
 }
 
-h1 {
+.name {
     color: white;
     font-family: 'DINPro-Light';
     font-size: 30px;
+    margin-left: 10px;
 }
 
 .headshot {
     width: 20vh;
     border-radius: 150px;
-    margin-left: 80px;
+    margin-left: 10px;
 }
 
 .headshot-container {
     display: flex;
     align-items: center;
+}
+
+.sub-heading {
+    margin-left: 10px;
 }
 
 p {
@@ -82,4 +80,22 @@ p {
     font-size: 20px;
 }
 
+.oswald {
+    color: white;
+    font-family:'Oswald', sans-serif;
+    letter-spacing: .05em;
+    font-size: 20px;
+}
+
+.project {
+    text-align: center;
+}
+
+.project a {
+    color: white;
+    font-family:'Oswald', sans-serif;
+    letter-spacing: .05em;
+    font-size: 20px;
+    text-decoration: none;
+}
 
