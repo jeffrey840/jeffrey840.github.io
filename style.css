@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 
-/* ---- reset ---- */
+
 body{ margin:0;
     font:normal 75% Arial, Helvetica, sans-serif; }
 canvas{ display: block; vertical-align: bottom; }
