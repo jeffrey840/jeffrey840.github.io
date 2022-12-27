@@ -19,7 +19,7 @@ canvas{ display: block; vertical-align: bottom; }
 
 .center-text {
     position: absolute;
-    top: 25%;
+    top: 22%;
     left: 20%;
     transform: translate(-20%, -20%);
 }
