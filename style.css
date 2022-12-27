@@ -28,7 +28,7 @@ canvas{ display: block; vertical-align: bottom; }
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    border: 1px red solid;
+    /*border: 1px red solid;*/
 }
 
 .name {
