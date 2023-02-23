@@ -22,86 +22,85 @@ canvas{ display: block; vertical-align: bottom; }
 }
 
 
-.center-text {
-    position: absolute;
-    top: 22%;
-    left: 20%;
-    transform: translate(-20%, -20%);
-}
+/*.center-text {*/
+/*    position: absolute;*/
+/*    top: 22%;*/
+/*    left: 20%;*/
+/*    transform: translate(-20%, -20%);*/
+/*}*/
 
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+/** {*/
+/*    margin: 0px;*/
+/*    padding: 0px;*/
+/*    box-sizing: border-box;*/
+/*}*/
 
-}
+/*.name {*/
+/*    color: white;*/
+/*    font-family: 'DINPro-Light';*/
+/*    font-size: 30px;*/
+/*    margin-left: 10px;*/
+/*}*/
 
-.name {
-    color: white;
-    font-family: 'DINPro-Light';
-    font-size: 30px;
-    margin-left: 10px;
-}
+/*.headshot {*/
+/*    width: 20vh;*/
+/*    border-radius: 150px;*/
+/*    margin-left: 10px;*/
+/*}*/
 
-.headshot {
-    width: 20vh;
-    border-radius: 150px;
-    margin-left: 10px;
-}
+/*.headshot-container {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*}*/
 
-.headshot-container {
-    display: flex;
-    align-items: center;
-}
+/*.sub-heading {*/
+/*    margin-left: 10px;*/
+/*}*/
 
-.sub-heading {
-    margin-left: 10px;
-}
+/*p {*/
+/*    color: white;*/
+/*    font-family: 'DINPro-Light';*/
+/*    letter-spacing: .05em;*/
+/*    font-size: 20px;*/
+/*}*/
 
-p {
-    color: white;
-    font-family: 'DINPro-Light';
-    letter-spacing: .05em;
-    font-size: 20px;
-}
+/*.contact a{*/
+/*    text-decoration: none;*/
+/*    color: white;*/
+/*    font-family: 'Oswald', sans-serif;*/
+/*    letter-spacing: .05em;*/
+/*    font-size: 20px;*/
+/*    transition: opacity 0.5s ease-in-out;*/
+/*}*/
+/*.contact a:hover{*/
+/*    text-decoration: none;*/
+/*    color: darkgrey;*/
+/*    opacity: .7;*/
+/*}*/
 
-.contact a{
-    text-decoration: none;
-    color: white;
-    font-family: 'Oswald', sans-serif;
-    letter-spacing: .05em;
-    font-size: 20px;
-    transition: opacity 0.5s ease-in-out;
-}
-.contact a:hover{
-    text-decoration: none;
-    color: darkgrey;
-    opacity: .7;
-}
+/*.DINpro {*/
+/*    color: white;*/
+/*    font-family: 'DINPro-Light';*/
+/*    letter-spacing: .05em;*/
+/*    font-size: 20px;*/
+/*}*/
 
-.DINpro {
-    color: white;
-    font-family: 'DINPro-Light';
-    letter-spacing: .05em;
-    font-size: 20px;
-}
+/*.oswald {*/
+/*    color: white;*/
+/*    font-family:'Oswald', sans-serif;*/
+/*    letter-spacing: .05em;*/
+/*    font-size: 20px;*/
+/*}*/
 
-.oswald {
-    color: white;
-    font-family:'Oswald', sans-serif;
-    letter-spacing: .05em;
-    font-size: 20px;
-}
+/*.project {*/
+/*    text-align: center;*/
+/*}*/
 
-.project {
-    text-align: center;
-}
-
-.project a {
-    color: white;
-    font-family:'Oswald', sans-serif;
-    letter-spacing: .05em;
-    font-size: 20px;
-    text-decoration: none;
-}
+/*.project a {*/
+/*    color: white;*/
+/*    font-family:'Oswald', sans-serif;*/
+/*    letter-spacing: .05em;*/
+/*    font-size: 20px;*/
+/*    text-decoration: none;*/
+/*}*/
 
