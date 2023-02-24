@@ -113,4 +113,25 @@ particlesJS("particles-js",
 
 )
 
+// document.getElementById('movieDisplay').innerHTML = '';
+// 	$('#movieDisplay').append(createImage());
+//
+//
+// function createImage(){
+// 	let html =`
+// <div class="col-3">
+// 	<div class="card" style="width: 18rem;">
+//          <img src="https://images.unsplash.com/photo-1503785640985-f62e3aeee448?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1774&q=80" class="card-img-top" alt="...">
+//             <div class="card-body">
+//                <h5 class="card-title">Card title</h5>
+//                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+//                <a href="#" class="btn btn-primary">Go somewhere</a>
+//             </div>
+// 	</div>
+// </div>
+// `;
+// 	return html;
+// }
+// createImage();
+
 
