@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 
-/** {*/
-/*    border: 1px red solid;*/
-/*}*/
+* {
+    /*border: 1px red solid;*/
+    color: white;
+}
 
 
 body{ margin:0;}
@@ -28,8 +29,18 @@ canvas{ display: block; vertical-align: bottom; }
 
 .content{
     position: absolute;
-    margin-top: 5rem;
+    /*position: relative;*/
+    /*margin-top: 5rem;*/
+    /*margin-bottom: 5rem;*/
     left: 50%;
     transform: translateX(-50%);
     width: 80%;
+    /*========*/
+    /*margin:5px;*/
+    /*padding:5px;*/
+    /*background-color: green;*/
+    /*width: 500px;*/
+    height: 100%;
+    overflow: auto;
+    text-align:justify;
 }
