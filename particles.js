@@ -113,6 +113,15 @@ particlesJS("particles-js",
 
 )
 
+$(document).ready(function(){
+	$("p").hover(
+		function(){
+		$(this).css("background-color", "green")
+	}, function(){
+		$(this).css("background-color", "transparent")
+	});
+});
+
 // document.getElementById('movieDisplay').innerHTML = '';
 // 	$('#movieDisplay').append(createImage());
 //
