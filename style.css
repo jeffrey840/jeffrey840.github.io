@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 
 * {
-    border: 1px red solid;
+    /*border: 1px red solid;*/
     color: white;
 }
 
@@ -46,12 +46,12 @@ canvas{ display: block; vertical-align: bottom; }
 }
 
 p {
-    transition: all 1000ms ease-in-out;
+    transition: all 900ms ease-in-out;
 }
 p:hover {
-    background-color: #c0392b;
+    background-color: darkblue;
 }
 
-/*=====================*/
-
-/*=========================================*/
+a {
+    text-decoration: none;
+}
