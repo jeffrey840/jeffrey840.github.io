@@ -46,7 +46,7 @@ canvas{ display: block; vertical-align: bottom; }
 }
 
 p {
-    transition: all 1000ms linear;
+    transition: all 1000ms ease-in-out;
 }
 p:hover {
     background-color: #c0392b;
