@@ -112,6 +112,7 @@ particlesJS("particles-js",
 	}
 
 )
+
 let html_logo_url = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg'
 let js_logo_url = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg';
 let java_logo_url = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg'
@@ -137,7 +138,6 @@ $(document).ready(function() {
 function mouseOver() {
 	var colors = ['#ff0000', '#00ff00', '#0000ff'];
 	var random_color = colors[Math.floor(Math.random() * colors.length)];
-	var random_color2 = colors[Math.floor(Math.random() * colors.length)];
 	$("p").hover(
 		function(){
 			$(this).css('color', random_color)
