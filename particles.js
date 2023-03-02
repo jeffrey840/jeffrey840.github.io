@@ -112,6 +112,17 @@ particlesJS("particles-js",
 	}
 
 )
+let html_logo_url = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg'
+let js_logo_url = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg';
+
+$(document).ready(function() {
+	$('.js_logo').append(`<img src='${js_logo_url}' alt="_" style="max-height: 15%;max-width: 15%" class="pe-2">`);
+	$('.html_logo').append(`<img src='${html_logo_url}' alt="_" style="max-height: 15%;max-width: 15%" class="pe-2">`);
+});
+
+$(document).ready(function() {
+
+});
 
 // $(document).ready(function(){
 // 	$("p").hover(
@@ -121,6 +132,8 @@ particlesJS("particles-js",
 // 		$(this).css("background-color", "transparent")
 // 	});
 // });
+
+
 
 // document.getElementById('movieDisplay').innerHTML = '';
 // 	$('#movieDisplay').append(createImage());

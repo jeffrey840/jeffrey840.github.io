@@ -1,14 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 
 * {
-    /*border: 1px red solid;*/
+    border: 1px red solid;
     color: white;
 }
 
+/*.javascript {*/
+/*    background-image: url("https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg");*/
+/*    max-width: 15%;*/
+/*    max-height: 15%;*/
+/*    padding-right: 2px;*/
+/*}*/
 
 body{ margin:0;}
 
 canvas{ display: block; vertical-align: bottom; }
+
+
 
 #particles-js {
     background-image:
