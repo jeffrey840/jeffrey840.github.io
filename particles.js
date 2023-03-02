@@ -114,10 +114,24 @@ particlesJS("particles-js",
 )
 let html_logo_url = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg'
 let js_logo_url = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg';
+let java_logo_url = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg'
+let css_logo_url = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg';
+let jquery_logo_url = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg';
+let mysql_logo_url = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-plain.svg';
+let spring_logo_url = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg';
+let bootstrap_logo_url = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg'
 
 $(document).ready(function() {
 	$('.js_logo').append(`<img src='${js_logo_url}' alt="_" style="max-height: 15%;max-width: 15%" class="pe-2">`);
 	$('.html_logo').append(`<img src='${html_logo_url}' alt="_" style="max-height: 15%;max-width: 15%" class="pe-2">`);
+	$('.java_logo').append(`<img src='${java_logo_url}' alt="_" style="max-height: 15%;max-width: 15%" class="pe-2">`);
+	$('.css_logo').append(`<img src='${css_logo_url}' alt="_" style="max-height: 15%;max-width: 15%" class="pe-2">`);
+	$('.jquery_logo').append(`<img src='${jquery_logo_url}' alt="_" style="max-height: 15%;max-width: 15%" class="pe-2">`);
+	$('.mysql_logo').append(`<img src='${mysql_logo_url}' alt="_" style="max-height: 15%;max-width: 15%" class="pe-2">`);
+	$('.spring_logo').append(`<img src='${spring_logo_url}' alt="_" style="max-height: 15%;max-width: 15%" class="pe-2">`);
+	$('.bootstrap_logo').append(`<img src='${bootstrap_logo_url}' alt="_" style="max-height: 15%;max-width: 15%" class="pe-2">`);
+
+
 });
 
 $(document).ready(function() {
