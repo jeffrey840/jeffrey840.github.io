@@ -47,13 +47,66 @@ canvas{ display: block; vertical-align: bottom; }
     border-radius: 50%;
 }
 
-p {
-    transition: all 900ms ease-in-out;
-}
-p:hover {
-    background-color: darkblue;
-}
+/*p {*/
+/*    transition: all 90ms ease-in-out;*/
+/*}*/
+/*p:hover {*/
+/*    background-color: darkblue;*/
+/*}*/
 
 a {
     text-decoration: none;
 }
+
+/*highlight under underline========🟩🟩🟩🟩=============*/
+
+#div {
+    /*  margin: 0; */
+    display: flex;//will flex the screen
+align-items: center;
+    /*  justify-content: center; */
+    /*  height: 100vh; */
+    background-color:beige;
+    border: red solid 1px
+}
+
+.underline {
+    /*   text-decoration: none;
+      text-transform: uppercase; */
+    font-size: 50px;
+    color: black;
+    position: relative;
+}
+
+.underline:before {
+    content: "";
+    width: 0;
+    height: 5px;
+    background-color: #00bcd4;
+    position: absolute;
+    top: 120%;
+    left: 0;
+    transition: all 0.5s;
+}
+
+.underline:after {
+    content: "";
+    width: 0;
+    height: 5px;
+    background-color: #f0f;
+    position: absolute;
+    top: 120%;
+    right: 0;
+    transition: all 0.5s;
+}
+
+.underline:hover:before {
+    width: 50%;
+    transform: translateX(100%);
+}
+
+.underline:hover:after {
+    width: 50%;
+    transform: translateX(-100%);
+}
+/*highlight under underline========🟩🟩🟩🟩=============*/

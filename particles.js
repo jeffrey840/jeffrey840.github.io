@@ -131,21 +131,29 @@ $(document).ready(function() {
 	$('.spring_logo').append(`<img src='${spring_logo_url}' alt="_" style="max-height: 15%;max-width: 15%" class="pe-2">`);
 	$('.bootstrap_logo').append(`<img src='${bootstrap_logo_url}' alt="_" style="max-height: 15%;max-width: 15%" class="pe-2">`);
 
-
 });
 
-$(document).ready(function() {
 
-});
+function mouseOver() {
+	var colors = ['#ff0000', '#00ff00', '#0000ff'];
+	var random_color = colors[Math.floor(Math.random() * colors.length)];
+	var random_color2 = colors[Math.floor(Math.random() * colors.length)];
+	$("p").hover(
+		function(){
+			$(this).css('color', random_color)
+		}, function(){
+			$(this).css("color", "white")
+		}, function(){
+			$(this).css("color", random_color)
+		});
+}
 
-// $(document).ready(function(){
-// 	$("p").hover(
-// 		function(){
-// 		$(this).css("background-color", "green")
-// 	}, function(){
-// 		$(this).css("background-color", "transparent")
-// 	});
-// });
+function mouseOut() {
+	bodyElement.style.backgroundColor = "white";
+}
+window.addEventListener('mouseover', mouseOver);
+window.addEventListener('mouseout', mouseOut);
+
 
 
 
