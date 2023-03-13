@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 
 * {
-    border: 1px red solid;
+    /*border: 1px red solid;*/
     color: white;
 }
 
@@ -45,6 +45,14 @@ canvas{ display: block; vertical-align: bottom; }
 
 .headshot {
     border-radius: 50%;
+    alignment: center;
+
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*p {*/
@@ -119,6 +127,8 @@ align-items: center;
 
 */
 
+
+/*hover effect on md/lg screen size START*/
 .wp-caption {
     position: relative;
     padding: 0;
@@ -147,4 +157,25 @@ align-items: center;
 }
 .wp-caption:hover .wp-caption-text {
     opacity: 1;
+}
+/*hover effect on md/lg screen size END*/
+
+/*// Example*/
+/*// Apply styles starting from medium devices and up to extra large devices*/
+@media (min-width: 992px) and (max-width: 1450px) {
+
+    .areas-of-focus {
+        background-color: #00bcd4;
+        margin-top: 25%;
+    }
+
+    .contact {
+        background-color: darkblue;
+        margin-top: 25%;
+    }
+
+    .socials {
+        background-color: darkslategrey;
+        margin-top: 25%;
+    }
 }
