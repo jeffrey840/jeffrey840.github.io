@@ -136,7 +136,10 @@ $(document).ready(function() {
 
 
 function mouseOver() {
-	var colors = ['#ff0000', '#00ff00', '#0000ff'];
+
+
+
+	var colors = ['#1A5857', '#109FB3', '#AABF15','#DF7C1D','#E54542'];
 	var random_color = colors[Math.floor(Math.random() * colors.length)];
 	$("p").hover(
 		function(){

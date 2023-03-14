@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 
 * {
-    /*border: 1px red solid;*/
+    border: 1px red solid;
     color: white;
 }
 
@@ -178,4 +178,19 @@ align-items: center;
 
         margin-top: 30%;
     }
+}
+
+.areas-of-focus p {
+margin: 0;
+}
+
+
+/* colors */
+
+:root {
+    --a:#1A5857;
+    --b:#109FB3;
+    --c:#AABF15;
+    --d:#DF7C1D;
+    --e:#E54542;
 }
