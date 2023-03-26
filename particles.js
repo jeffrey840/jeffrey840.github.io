@@ -126,16 +126,74 @@ const logos = [
 	{ class: 'bootstrap_logo', url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg' },
 ];
 
-$(document).ready(function() {
-	function appendLogo(elementClass, logoUrl) {
-		$(`.${elementClass}`).append(`<img src='${logoUrl}' alt="_" style="max-height: 15%;max-width: 15%" class="pe-2">`);
-	}
+function createCard(imgSrc, title, text, languages) {
+	const languageLogos = languages
+		.map(
+			(language) =>
+				`<img src="${language.url}" alt="_" style="max-height: 15%;max-width: 15%" class="pe-2">`
+		)
+		.join('');
 
-	logos.forEach(logo => {
-		appendLogo(logo.class, logo.url);
-	});
+	return `
+    <div class="col">
+      <div class="card h-100" style="background-color: transparent">
+        <img src="${imgSrc}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">${title}</h5>
+          <p class="card-text">${text}</p>
+          <div class="d-flex align-content-start flex-wrap">
+            ${languageLogos}
+          </div>
+        </div>
+      </div>
+    </div>`;
+}
+
+const cards = [
+	{
+		imgSrc: 'https://images.unsplash.com/photo-1503785640985-f62e3aeee448?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1774&q=80',
+		title: 'Card title',
+		text: 'This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.',
+		languages: [
+			logos[0], // HTML logo
+			logos[1], // JS logo
+			logos[3], // CSS logo
+		],
+	},{
+		imgSrc: 'https://images.unsplash.com/photo-1503785640985-f62e3aeee448?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1774&q=80',
+		title: 'Card title',
+		text: 'This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.',
+		languages: [
+			logos[0], // HTML logo
+			logos[1], // JS logo
+			logos[3], // CSS logo
+		],
+	},{
+		imgSrc: 'https://images.unsplash.com/photo-1503785640985-f62e3aeee448?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1774&q=80',
+		title: 'Card title',
+		text: 'This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.',
+		languages: [
+			logos[0], // HTML logo
+			logos[1], // JS logo
+			logos[3], // CSS logo
+		],
+	},{
+		imgSrc: 'https://images.unsplash.com/photo-1503785640985-f62e3aeee448?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1774&q=80',
+		title: 'Card title',
+		text: 'This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.',
+		languages: [
+			logos[0], // HTML logo
+			logos[1], // JS logo
+			logos[3], // CSS logo
+		],
+	},
+	// Add more cards here
+];
+
+const cardsContainer = document.getElementById('cards-container');
+cards.forEach(card => {
+	cardsContainer.innerHTML += createCard(card.imgSrc, card.title, card.text, card.languages);
 });
-
 
 
 
