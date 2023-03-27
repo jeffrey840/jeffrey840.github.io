@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 
 * {
@@ -5,6 +6,13 @@
     color: white;
 }
 
+:root {
+    --a:#1A5857;
+    --b:#109FB3;
+    --c:#AABF15;
+    --d:#DF7C1D;
+    --e:#E54542;
+}
 
 body{ margin:0;}
 
@@ -55,77 +63,11 @@ canvas{ display: block; vertical-align: bottom; }
     margin-right: auto;
 }
 
-/*p {*/
-/*    transition: all 90ms ease-in-out;*/
-/*}*/
-/*p:hover {*/
-/*    background-color: darkblue;*/
-/*}*/
 
 a {
     text-decoration: none;
 }
 
-/*highlight under underline========🟩🟩🟩🟩=============*/
-
-#div {
-    /*  margin: 0; */
-    display: flex;//will flex the screen
-align-items: center;
-    /*  justify-content: center; */
-    /*  height: 100vh; */
-    /*background-color:beige;*/
-    /*border: red solid 1px*/
-}
-
-.underline {
-    /*   text-decoration: none;
-      text-transform: uppercase; */
-    /*font-size: 50px;*/
-    /*color: black;*/
-    position: relative;
-}
-
-.underline:before {
-    content: "";
-    width: 0;
-    height: 5px;
-    background-color: #00bcd4;
-    position: absolute;
-    top: 120%;
-    left: 0;
-    transition: all 0.5s;
-}
-
-.underline:after {
-    content: "";
-    width: 0;
-    height: 5px;
-    background-color: #f0f;
-    position: absolute;
-    top: 120%;
-    right: 0;
-    transition: all 0.5s;
-}
-
-.underline:hover:before {
-    width: 50%;
-    transform: translateX(100%);
-}
-
-.underline:hover:after {
-    width: 50%;
-    transform: translateX(-100%);
-}
-/*highlight under underline========🟩🟩🟩🟩=============*/
-
-/*
-
-<div class="col-lg-4"></div>
-		<div class="col-lg-3"></div>
-		<div class="col-lg-5"></div>
-
-*/
 
 
 /*hover effect on md/lg screen size START*/
@@ -184,13 +126,12 @@ align-items: center;
 margin: 0;
 }
 
+/*
 
-/* colors */
+<!--				<a class="" href="https://github.com/ethan-jeffrey-movie-project/movie-project" target="_blank">Movie project</a>&lt;!&ndash;3&ndash;&gt;-->
+							<!--				<br>-->
+							<!--				<a class="" href="https://flores-cabrera-coffee-project.github.io/coffee-project/" target="_blank">Cafesito</a>&lt;!&ndash;3&ndash;&gt;-->
+							<!--				<br>-->
+							<!--				<a class="" href="https://github.com/jeffrey840/Weather-Map-Project" target="_blank">Weather Map Project</a>&lt;!&ndash;3&ndash;&gt;-->
 
-:root {
-    --a:#1A5857;
-    --b:#109FB3;
-    --c:#AABF15;
-    --d:#DF7C1D;
-    --e:#E54542;
-}
+*/
