@@ -1,60 +1,45 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 
 * {
-    border: 1px red solid;
     color: white;
 }
 
-:root {
-    --a:#1A5857;
-    --b:#109FB3;
-    --c:#AABF15;
-    --d:#DF7C1D;
-    --e:#E54542;
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #101214;
 }
 
-body{ margin:0;}
-
-canvas{ display: block; vertical-align: bottom; }
-
-
+canvas {
+    display: block;
+    vertical-align: bottom;
+}
 
 #particles-js {
-    background-image:
-            linear-gradient(rgba(0, 0, 0, 0.7),
-            rgba(0, 0, 0, 0.7)),
-            url("darkbg.jpeg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("darkbg.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     height: 100vh;
     width: 100vw;
     position: fixed;
-    z-index: -1; // this is optional
+    z-index: -1;
 }
 
-.content{
+.content {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
-    /*width: 80%;*/
     height: 100%;
-    /*overflow: auto;*/
     overflow-y: scroll;
     overflow-x: hidden;
     text-align:justify;
 }
-@media only screen and (max-width: 600px) {
-    p {
-        padding-right: 4%;
-    }
-}
 
 .headshot {
     border-radius: 50%;
-    alignment: center;
-
 }
 
 .center-block {
@@ -63,24 +48,24 @@ canvas{ display: block; vertical-align: bottom; }
     margin-right: auto;
 }
 
-
 a {
+    color: #7A7C80;
     text-decoration: none;
 }
 
-
-
-/*hover effect on md/lg screen size START*/
+/* Hover Effects and Responsiveness */
 .wp-caption {
     position: relative;
     padding: 0;
     margin: 0;
 }
+
 .wp-caption img {
     display: block;
     max-width: 100%;
     height: auto;
 }
+
 .wp-caption-text {
     opacity: 0;
     position: absolute;
@@ -91,47 +76,135 @@ a {
     padding: 0.75em 1em;
     font-weight: 700;
     z-index: 2;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
     background-color: rgba(0,0,0,.7);
-    -webkit-transition: opacity .3s ease-in-out;
     transition: opacity .3s ease-in-out;
 }
+
 .wp-caption:hover .wp-caption-text {
     opacity: 1;
 }
-/*hover effect on md/lg screen size END*/
 
-/*// Example*/
-/*// Apply styles starting from medium devices and up to extra large devices*/
+@media only screen and (max-width: 600px) {
+    p {
+        padding-right: 4%;
+    }
+}
+
 @media (min-width: 992px) and (max-width: 1450px) {
-
     .areas-of-focus {
-        /*background-color: #00bcd4;*/
         margin-top: 40%;
     }
 
     .contact {
-        /*background-color: darkblue;*/
         margin-top: 30%;
     }
 
     .socials {
-
         margin-top: 30%;
     }
 }
 
 .areas-of-focus p {
-margin: 0;
+    margin: 0;
 }
 
-/*
+/* Text Styles and Placement */
+.grid-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
 
-<!--				<a class="" href="https://github.com/ethan-jeffrey-movie-project/movie-project" target="_blank">Movie project</a>&lt;!&ndash;3&ndash;&gt;-->
-							<!--				<br>-->
-							<!--				<a class="" href="https://flores-cabrera-coffee-project.github.io/coffee-project/" target="_blank">Cafesito</a>&lt;!&ndash;3&ndash;&gt;-->
-							<!--				<br>-->
-							<!--				<a class="" href="https://github.com/jeffrey840/Weather-Map-Project" target="_blank">Weather Map Project</a>&lt;!&ndash;3&ndash;&gt;-->
+.section-1 {
+    padding-top: 40vh;
+    text-align: center;
+}
 
-*/
+.section-1 p {
+    font-size: 1.1rem;
+    padding-bottom: 10px;
+    margin:0;
+}
+
+.section-1 h2 {
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+}
+
+.section-1 a {
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+.section-2 {
+    padding-top: 10vh;
+    width: 70%;
+}
+
+.section-2 h2 {
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+}
+
+.section-2 p {
+    font-size: 1.1rem;
+    padding-bottom: 10px;
+    margin:0;
+}
+
+.section-2 a {
+    display: block;
+    padding: 5px;
+    font-size: 1.2rem;
+    padding-left: 0;
+    width: 100px;
+}
+
+.section-2 a:hover {
+    font-size: 1.3rem;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.section-1 a:hover {
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+@media(max-width:780px) {
+    .grid-2 {
+        grid-template-columns: 1fr;
+    }
+    .section-1 {
+        padding:0;
+        padding-top: 5rem;
+    }
+    .section-2 {
+        padding: 0;
+        padding-left: 1.5rem;
+        padding-top: 2rem;
+    }
+}
+
+
+@media (max-width:768px) {
+    .grid-2 {
+        grid-template-columns: 1fr;
+    }
+    .section-1 {
+        padding:0;
+        padding-top: 5rem;
+    }
+    .section-2 {
+        padding: 0;
+        padding-top: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .section-2 a {
+        margin: auto; /* Center the links */
+    }
+}
+
