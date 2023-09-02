@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
-
 * {
     color: white;
     /*outline: red 1px solid;*/
@@ -50,9 +49,15 @@ canvas {
 }
 
 a {
-    color: #7A7C80;
+    color: #fff; /* Updated to white */
     text-decoration: none;
 }
+
+/* Old color for links, commented out for comparison
+a {
+    color: #7A7C80;
+    text-decoration: none;
+} */
 
 /* Hover Effects and Responsiveness */
 .wp-caption {
@@ -162,6 +167,20 @@ a {
 
 .section-2 a:hover {
     font-size: 1.3rem;
+    color: #7A7C80; /* Updated to grey */
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.section-1 a:hover {
+    color: #7A7C80; /* Updated to grey */
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Old hover color, commented out for comparison
+.section-2 a:hover {
+    font-size: 1.3rem;
     color: #fff;
     cursor: pointer;
     transition: 0.2s;
@@ -171,7 +190,7 @@ a {
     color: #fff;
     cursor: pointer;
     transition: 0.3s;
-}
+} */
 
 @media(max-width:780px) {
     .grid-2 {
@@ -187,7 +206,6 @@ a {
         padding-top: 2rem;
     }
 }
-
 
 @media (max-width:768px) {
     .grid-2 {
@@ -214,5 +232,3 @@ ul {
     padding: 0;
     margin: 0;
 }
-
-
